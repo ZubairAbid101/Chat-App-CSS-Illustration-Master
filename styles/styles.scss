@@ -1,0 +1,49 @@
+@use "./background-styles";
+@use "./phone-styles";
+@use "./app-styles";
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Rubik', sans-serif;
+}
+
+:root{
+    --light-magenta: hsl(293, 100%, 63%);
+    --light-violet: hsl(264, 100%, 61%);
+    --phone-exterior-bg: hsl(0, 0%, 100%);
+    --phone-interior-bg: hsl(270, 20%, 96%);
+    --chat-left-bg-color: hsl(276, 100%, 81%);
+    --submit-bg-color: hsl(271, 36%, 24%);
+    --radio-button-border-color: hsl(289, 100%, 72%);
+    --placeholder-text-color: hsl(206, 6%, 79%);
+    --phone-text: hsl(270, 7%, 64%);
+    --phone-heading: hsl(271, 36%, 24%);
+
+    --user-status-color: hsl(276, 100%, 81%);
+}
+
+body{
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 1150px;
+    height: 640px;
+
+    position: relative;
+
+    overflow: hidden;
+
+    @media screen and (max-width: 500px){
+        width: 300px;
+        height: 750px;
+    }
+}

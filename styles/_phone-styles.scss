@@ -1,0 +1,99 @@
+.phone-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+
+    @media screen and (max-width:500px) {
+        flex-direction: column;
+    }
+
+}
+
+.phone-exterior{
+    width: 200px;
+    height: 410px;
+
+    position: relative;
+    left: -1.5%;
+
+    background: var(--phone-exterior-bg);
+
+    border-radius: 20px;
+    box-shadow: 0px 0px 3px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media screen and (max-width: 500px) {
+        margin-right: 0;
+        margin-top: -80px;
+        
+    }
+}
+
+
+.phone-interior{
+    height: 97%;
+    width: 95%;
+
+    position: absolute;
+
+    background: hsl(270, 20%, 96%);
+
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.phone-notch{
+    width: 55%;
+    height: 5%;
+
+    position: absolute;
+    top: 0;
+
+    background: var(--phone-exterior-bg);
+
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+}
+
+.phone-info{
+    width: 30%;
+
+    position: relative;
+    left: 7%;
+
+    @media screen and (max-width: 500px) {
+        width: 100%;
+
+        left: 0;
+        top: 40px;
+
+        text-align: center;
+    }
+}
+
+.heading{
+    color: var(--phone-heading);
+    font-size: 2.3rem;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.text{
+    color: var(--phone-text);
+    font-weight: 400;
+
+    @media screen and (max-width:500px) {
+        padding: 10px;
+    }
+}

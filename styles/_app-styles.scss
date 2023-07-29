@@ -1,0 +1,242 @@
+.app-header{
+    width: 95%;
+    height: 14%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin-top: 4px;
+
+    background: linear-gradient(90deg, var(--light-violet), var(--light-magenta));
+
+    border-radius: 20px 20px 0px 0px;
+}
+
+.arrow-icon-container{
+    height: 25%;
+
+    position: relative;
+    left: 6%;
+    top: 10%;
+}
+
+.arrow-icon-img{
+    width: 100%;
+    height: 100%;
+
+    display: block;
+}
+
+.user-info{
+    height: 50%;
+
+    position: relative;
+    left: 9%;
+    top: 9%;
+
+    display: flex;
+    align-items: center;
+}
+
+.user-img-container{
+    height: 70%;
+}
+
+.user-img{
+    width: 100%;
+    height: 100%;
+
+    border-radius: 50%;
+
+    border: 1px solid white;
+
+    display: block;
+}
+
+.user-detail{
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+    left: 5%;
+}
+
+.user-name{
+    font-size: 11px;
+    color: white;
+}
+
+.user-status{
+    font-size: 7px;
+    color: var(--user-status-color);
+}
+
+.settings-icon-container{
+    height: 20%;
+
+    position: relative;
+    left: 39%;
+    top: 10%;
+}
+
+.settings-icon{
+    width: 100%;
+    height: 100%;
+
+    display: block;
+}
+
+.app-body{
+    width: 95%;
+    height: 90%;
+}
+
+.chat-left{
+    width: 60%;
+
+    padding: 6px;
+    margin-left: 5px;
+    margin-top: 5px;
+
+    color: hsl(276, 55%, 52%);
+    background-color: var(--chat-left-bg-color);
+
+    border-radius: 20px;
+
+    font-size: 8px;
+}
+
+.dog-img-container{
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.dog-img{
+    width: 20%;
+
+    border-radius: 10px;
+
+    margin-right: 2px;
+    margin-top: 5px;
+
+    display: block;
+}
+
+.chat-right{
+    padding: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+
+    position: relative;
+
+    border-radius: 20px;
+
+    color: hsl(271, 15%, 43%);
+    background: white;
+
+    font-size: 8px;
+}
+
+.chat-right.text-1{
+    width: 65%;
+
+    left: 32%;
+}
+
+.chat-right.text-2{
+    width: fit-content;
+
+    left: 58%;
+}
+
+.chat-left.text-3{
+    width: 70%;
+}
+
+.offer{
+    width: 70%;
+    height: 7%;
+
+    padding: 4px;
+    margin-top: 8px;
+    margin-left: 5px;
+    border-radius: 8px;
+
+    background: linear-gradient(90deg, var(--light-magenta), var(--light-violet));
+    color: white;
+
+    font-size: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.walk-time-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.walk-time{
+    font-size: 7px;
+}
+
+.radio{
+    width: 10px;
+    border: 1px solid var(--radio-button-border-color);
+    border-radius: 50%;
+
+    margin-right: 5px;
+}
+
+.price{
+    font-weight: 700;
+}
+
+.message-input-container{
+    width: 100%;
+    height: 10%;
+
+    background-color: white;
+
+    margin: 9px auto 0px auto;
+    padding: 5px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.placeholder{
+    font-size: 10px;
+    color: var(--placeholder-text-color);
+}
+
+.send-button-container{
+    width: 15%;
+    height: 100%;
+    border-radius: 50%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--submit-bg-color);
+}
+
+.send-button-icon{
+    width: 0;
+    height: 0;
+
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 8px solid white;
+}
